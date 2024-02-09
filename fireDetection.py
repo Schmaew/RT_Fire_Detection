@@ -33,7 +33,7 @@ while True:
         if time.time() - start_time >= 5:
             print(f"Fire detected for {round(time.time() - start_time)} seconds")
             requests.post(
-                "https://discord.com/api/v9/channels/1079240396649021532/messages",
+                "", #put discord server url in here
                 json=payload,
                 headers=newhead,
             )
@@ -41,7 +41,7 @@ while True:
         if time.time() - start_time >= 10:
             print("ALARM! Fire detected for 10 seconds")
             requests.post(
-                "https://discord.com/api/v9/channels/1079240396649021532/messages",
+                "", #put discord server url in here
                 json=payload2,
                 headers=newhead,
             )
