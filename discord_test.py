@@ -2,7 +2,7 @@
 
 import requests
 
-payload = {"content": "/play รู้กันแค่สี้"}
+payload = {"content": "hi"}
 
 header = {
     ""
